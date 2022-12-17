@@ -15,3 +15,5 @@ The program will **only be effective** for Zybooks classes with an excessive amo
 The program **will** time out _a lot_. I have no clue as to why, but sometimes the pages simply do not want to load. If it times out, simply try again. It will work eventually. Also, when it finishes running, it should just open back up to the Zybooks page. Simply close the browser when done. 
 
 If for some reason, you'd like to run a test version of it, where it answers previously answered questions again just for fun, run the program with -t in the command line. 
+
+<sup> I do understand that this is bad code. But it's too much work to touch it up, especially because I was in between studying for tests when I finished this. </sup>
