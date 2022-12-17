@@ -7,7 +7,7 @@ My CS professor allowed the use of this program by me, myself, and only I. That 
 
 Alright, enough talk.
 
-##### Instructions
+#### Instructions
 First and foremost, this program is only made for Google Chrome. Make sure a [chrome web driver](https://chromedriver.chromium.org/downloads) of the right version is installed. The version of Chrome can be determined by visiting your Chrome settings and clicking on ["About](chrome://settings/help).
 
 Instructions are as follows: simply input Zybooks username, password, and class link into login_info.txt, in that order. Make sure to keep the username as the first line, the password as the second, and the link as the third.
