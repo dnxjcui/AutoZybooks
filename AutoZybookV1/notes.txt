@@ -1,0 +1,67 @@
+For the classes of the actual assignment: activity-payload
+
+For login: 
+    Username: ember-text-field ember-view zb-input
+    Password: zb-input-container info a11y-placeholder ember-view user-password
+    Sign-in: zb-button  primary  raised       full-width    signin-button
+    
+
+Class of participation multiple choice: interactive-activity-container multiple-choice-content-resource participation large ember-view
+    Completed class: zb-chevron check title-bar-chevron orange  filled  large
+    Incompleted class: zb-chevron  title-bar-chevron grey   chevron-outline large
+
+Class of animation: interactive-activity-container animation-player-content-resource participation large ember-view 
+    2x speed button: zb-checkbox grey label-present right ember-view
+    Start buttons: zb-button  primary  raised           start-button start-graphic
+
+
+Each multiple choice class: question-set-question multiple-choice-question ember-view
+    Correct? zb-explanation has-explanation correct
+    Incorrect: zb-explanation has-explanation incorrect
+    Answers: heading1 = question.find_elements(By.TAG_NAME, 'input')
+
+
+Each chapter: js-draggableObject draggable-object ember-view chapter-item // chapter-title ember-tooltip-target;
+    Each section: js-draggableObject draggable-object ember-view section-item  // ember-view section-title-link;
+Side panel: base-panel assignments-panel full-height
+    Side panel content: panel-content
+        Active assignments: font-light mb-2 text-sm text-med, get_attribute("inner_HTML") == Active
+            Assignment: assignment-summary p-2 flex justify-between
+                Container of all sections: assignment-details h-full flex flex-col
+                    Each section: flex items-center mb-2 // ember-view flex flex-1 items-center justify-between primary-font-regular, get_attribute("href")
+                        Point of each assignment: section-points-text primary-font-light, get_attribute("inner_HTML")
+                Score of assignment: flex flex-col ml-auto items-end, get_attribute("inner_HTML")
+
+psuedo code for multiple choice:
+After opening link: https://learn.zybooks.com/zybook/VANDERBILTCS1101Fall2022;
+wait(4);
+check side panel container for any active assignments;
+If there are any active assignments, check to see if fully completed.
+    If points equal,
+        quit
+    if not, click on assignment.
+        scan into container of all sections
+        append all sections into a list
+        for sections with unequal points
+            append link into each section into list.
+        for links in list
+            go to link
+            answer questions()
+
+        
+If not, quit.
+
+def answer questions():
+    create a list containing all multiple choice question elements;
+    for each multiple choice question;
+        create a temp list containing all the answer elements;
+        for x in answer elements;
+            x.click();
+            wait(.1);
+            try to (find correct explanation);
+                break;
+            except; 
+                do nothing;
+    return;
+
+

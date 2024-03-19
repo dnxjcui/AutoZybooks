@@ -1,0 +1,12 @@
+create a method answerquestions??
+given all variables, and it switches between answer mcq and animation?? 
+i think thats the way to goooooooooooooooo
+
+need to create a def that returns the values of each input and stuff
+
+
+NEED:
+HIT 2X and START ON EVERY animation
+
+COMPLETE 2X mcq
+CHECK AND TRY TO PLAY ANIMATION AGAIN
