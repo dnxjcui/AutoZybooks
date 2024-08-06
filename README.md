@@ -5,6 +5,8 @@ The purpose of this program is to rid my personal world of tedious and simple pr
 
 My CS professor allowed the use of this program by me, myself, and only I. That being said, if I get audited by somebody and they want to use it as well, I give them all the rights to do so. Just make sure you don't also go to Vanderbilt and I'm sure I won't have any repercussions.
 
+Before anyone asks, *the login info was provided in order for any potential auditors to demo the program themselves.* 
+
 Alright, enough talk.
 
 ### Instructions:
