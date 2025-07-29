@@ -1,5 +1,10 @@
 # AutoZybook
-#### Video Demo:  <https://www.youtube.com/watch?v=ioXJMysff_I>
+
+![CS50 Final Project](docs/media/CS50_Final.gif)
+
+**Note** that this repository is not maintained and has not been (except for the README) since 2023. 
+
+#### Full Video Demo:  <https://www.youtube.com/watch?v=ioXJMysff_I>
 #### Description: 
 The purpose of this program is to rid my personal world of tedious and simple programming assignments. This program made my life a lot easier in my CS classes, and allowed me to avoid a lot of the busywork that I already understood how to do.
 
